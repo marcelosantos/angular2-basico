@@ -12,7 +12,11 @@ import { Component } from '@angular/core';
 export class AppComponent  {
     name = 'Básico';
 
+    constructor(){
+        console.log("show log" + this.name);
+    }
+
     sayHello(){
-        console.log("clicado!")
+        console.log("clicado!" + this.name)
     }
 }
