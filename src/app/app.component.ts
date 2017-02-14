@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   template: `
     <h1>Angular 2 {{name}}</h1>
     <input type="text" [(ngModel)]="name"/>
-    <input type="text" [(ngModel)]="name"/>
-    <button (click)="sayHello()">Clique Me</button>
+    <button (click)="sayHello()">Adicionar Tarefa</button>
+    <tarefas-lista></tarefas-lista>
   `,
 })
 export class AppComponent  {
