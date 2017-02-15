@@ -4,6 +4,6 @@ import { Injectable } from '@angular/core';
 export class TarefasService {
 
   getTarefas(){
-    return ['Estudar Inglês', 'Estuda Ang2', 'Implementar Integração'];
+    return ['Estudar Inglês', 'Estuda Ang2', 'Impl. Integração'];
   }
 }
