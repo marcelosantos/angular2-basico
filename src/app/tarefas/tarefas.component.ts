@@ -11,9 +11,12 @@ export class TarefasComponent {
 
   nomeProjeto = 'pendentes';
 
+  imgSrc = 'http://lorempixel.com/260/180';
+
   tarefas: any;
 
   constructor(tarefasService: TarefasService){
     this.tarefas = tarefasService.getTarefas();
   }
+
 }
